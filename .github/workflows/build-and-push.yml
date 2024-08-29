@@ -51,5 +51,6 @@ jobs:
       uses: docker/build-push-action@v6
       with:
         push: true
+        context: app
         tags: boushra1111/python-flask-app-github:tagname
         file: docker-app/python/Dockerfile
